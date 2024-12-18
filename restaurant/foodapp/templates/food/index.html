@@ -1,0 +1,6 @@
+<!-- اسراء غسان حاجي سليمان , روز نزار قاسم  -->
+<ul>
+    {% for singlefruit in list_food_prices %}
+    <li>{{singlefruit.id}} {{singlefruit.name}} {{singlefruit.description}} {{singlefruit.price}}</li>
+    {% endfor %}
+</ul>
